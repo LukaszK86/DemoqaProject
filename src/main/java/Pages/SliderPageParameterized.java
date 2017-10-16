@@ -1,12 +1,11 @@
 package Pages;
 
-
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-public class SliderPage {
+public class SliderPageParameterized {
 
     @FindBy(how = How.XPATH, using = "//*[@id=\"slider-range-max\"]/span")
     WebElement slider;
@@ -16,5 +15,4 @@ public class SliderPage {
             slider.sendKeys(Keys.ARROW_RIGHT);
         }
     }
-
 }
