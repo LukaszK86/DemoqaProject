@@ -6,13 +6,11 @@ import org.openqa.selenium.support.How;
 
 public class FramesAndWindowsPage {
 
-    @FindBy (how = How.LINK_TEXT, using = "New Browser Tab")
+    @FindBy(how = How.LINK_TEXT, using = "New Browser Tab")
     WebElement newBrowserTab;
 
 
-
-
-    public void clickNewBrowserTab () {
+    public void clickNewBrowserTab() {
         newBrowserTab.click();
     }
 }
