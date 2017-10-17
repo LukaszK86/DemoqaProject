@@ -9,17 +9,58 @@ public class DatePickerPage {
     @FindBy(how = How.ID, using = "datepicker1")
     WebElement fieldData;
 
+    @FindBy(how = How.CLASS_NAME, using = "ui-datepicker-month")
+    WebElement currentMonth;
+
+    @FindBy (how = How.CLASS_NAME, using = "ui-state-default ui-state-active")WebElement currentDay;
+
+    @FindBy(how = How.CLASS_NAME, using = "ui-datepicker-year")
+   WebElement currentYear;
+
     public void clickFieldData() {
         fieldData.click();
     }
 
-    String date;
+    String month;
+    int day;
+    int year;
 
-    public void typeDate(String date) {
-        this.date = date;
-        fieldData.sendKeys(date);
+    public void typeDate(String month, int day, int year) {
+        this.month = month;
+        this.day = day;
+        this.year = year;
+        fieldData.sendKeys(month + " " + day + ", " + year);
     }
 
+
+
+    public String getMonth (){
+        return  month;
+    }
+
+    public int getYear (){
+        return year ;
+    }
+
+    public int getDay (){
+        return day;
+    }
+
+   // public void typeDate(String month, int day, int year){
+ //       fieldData.sendKeys(month + " " + day + ", " + year );
+//    }
+
+    public String getCurrentMonth() {
+        return currentMonth.getText();
+    }
+
+    public int getCurrentDay (){
+        return Integer.parseInt(currentDay.getText());
+    }
+
+    public int getCurrentYear(){
+        return Integer.parseInt(currentYear.getText());
+    }
 
 }
 
