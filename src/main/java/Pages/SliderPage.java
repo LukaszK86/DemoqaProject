@@ -11,25 +11,30 @@ public class SliderPage {
     @FindBy(how = How.XPATH, using = "//*[@id=\"slider-range-max\"]/span")
     WebElement slider;
 
-    @FindBy(how = How.ID, using = "amount1")
+    @FindBy(how = How.CSS, using = "input#amount1")
     WebElement valueOfSlider;
 
     public void moveSlider(int quantity) {
         switch (quantity) {
-                case 1:
-                    slider.sendKeys(Keys.ARROW_LEFT);
-                    break;
-                case 2:
-                   break;
-                default:
-                    for (int i = 3; i <= quantity; i++) {
-                        slider.sendKeys(Keys.ARROW_RIGHT);
-            }
+            case 1:
+                slider.sendKeys(Keys.ARROW_LEFT);
+                break;
+            case 2:
+                break;
+            default:
+                for (int i = 3; i <= quantity; i++) {
+                    slider.sendKeys(Keys.ARROW_RIGHT);
+                }
         }
     }
 
-    public String getSliderValue() {
-        return ((valueOfSlider.getText()));
+    public void getSliderValue() throws InterruptedException {
+        Thread.sleep(1000);
+        System.out.println(valueOfSlider.getAttribute("style"));
+        System.out.println(valueOfSlider.getAttribute("type"));
+        System.out.println(valueOfSlider);
+
+        System.out.println((valueOfSlider.getText()));
     }
 
 

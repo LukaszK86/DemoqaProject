@@ -1,6 +1,5 @@
-package Pages;
+package Pages.DatePicker;
 
-import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -24,15 +23,6 @@ public class DatePickerPage extends DatePickerData {
     }
 
 
-    public void typeDate(DatePickerData dataToSet) {
-
-      //  fieldData.sendKeys(dataToSet.getFormatedData(););
-    }
-
-
-
-
-
     // public void typeDate(String month, int day, int year){
     //       fieldData.sendKeys(month + " " + day + ", " + year );
 //    }
@@ -49,13 +39,8 @@ public class DatePickerPage extends DatePickerData {
         return Integer.parseInt(currentYear.getText());
     }
 
-    public void verifyData() {
-//        Assertions.assertEquals(getMonth(), getCurrentMonth());
-//        Assertions.assertEquals(getYear(), getCurrentYear());
-//        Assertions.assertEquals(getDay(), getCurrentDay());
-//        System.out.println(getMonth());
-//        System.out.println(getYear());
-//        System.out.println(getDay());
+    public void typeDate(DatePickerData dataToSet) {
+        fieldData.sendKeys(dataToSet.getDate());
     }
 
 }
