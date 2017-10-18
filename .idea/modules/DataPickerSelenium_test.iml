@@ -11,14 +11,12 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="DataPickerSelenium_main" />
     <orderEntry type="library" name="Gradle: org.seleniumhq.selenium:selenium-java:3.6.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-params:5.0.0-M6" level="project" />
-    <orderEntry type="library" name="Gradle: org.junit.vintage:junit-vintage-engine:4.12.0-M6" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-params:5.0.1" level="project" />
     <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-runner:1.0.0-M6" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.0.1" level="project" />
     <orderEntry type="library" name="Gradle: org.seleniumhq.selenium:selenium-api:3.6.0" level="project" />
     <orderEntry type="library" name="Gradle: org.seleniumhq.selenium:selenium-chrome-driver:3.6.0" level="project" />
     <orderEntry type="library" name="Gradle: org.seleniumhq.selenium:selenium-edge-driver:3.6.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.0.0-M6" level="project" />
     <orderEntry type="library" name="Gradle: org.seleniumhq.selenium:selenium-firefox-driver:3.6.0" level="project" />
     <orderEntry type="library" name="Gradle: org.seleniumhq.selenium:selenium-ie-driver:3.6.0" level="project" />
     <orderEntry type="library" name="Gradle: org.seleniumhq.selenium:selenium-opera-driver:3.6.0" level="project" />
@@ -35,17 +33,13 @@
     <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpcore:4.4.6" level="project" />
     <orderEntry type="library" name="Gradle: net.java.dev.jna:jna:4.1.0" level="project" />
     <orderEntry type="library" name="Gradle: net.java.dev.jna:jna-platform:4.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-engine:1.0.0-M6" level="project" />
-    <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />
-    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-launcher:1.0.0-M6" level="project" />
-    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-suite-api:1.0.0-M6" level="project" />
+    <orderEntry type="library" name="Gradle: org.opentest4j:opentest4j:1.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-commons:1.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-engine:1.0.1" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:1.3.9" level="project" />
     <orderEntry type="library" name="Gradle: com.google.errorprone:error_prone_annotations:2.0.18" level="project" />
     <orderEntry type="library" name="Gradle: com.google.j2objc:j2objc-annotations:1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.mojo:animal-sniffer-annotations:1.14" level="project" />
-    <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
-    <orderEntry type="library" name="Gradle: org.opentest4j:opentest4j:1.0.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-commons:1.0.1" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="DataPickerSelenium_main" />
 </module>

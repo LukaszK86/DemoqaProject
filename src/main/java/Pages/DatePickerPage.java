@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-public class DatePickerPage {
+public class DatePickerPage extends DatePickerData {
 
     @FindBy(how = How.ID, using = "datepicker1")
     WebElement fieldData;
@@ -23,29 +23,15 @@ public class DatePickerPage {
         fieldData.click();
     }
 
-    String month;
-    int day;
-    int year;
 
-    public void typeDate(String month, int day, int year) {
-        this.month = month;
-        this.day = day;
-        this.year = year;
-        fieldData.sendKeys(month + " " + day + ", " + year);
+    public void typeDate(DatePickerData dataToSet) {
+
+      //  fieldData.sendKeys(dataToSet.getFormatedData(););
     }
 
 
-    public String getMonth() {
-        return month;
-    }
 
-    public int getYear() {
-        return year;
-    }
 
-    public int getDay() {
-        return day;
-    }
 
     // public void typeDate(String month, int day, int year){
     //       fieldData.sendKeys(month + " " + day + ", " + year );
@@ -64,12 +50,12 @@ public class DatePickerPage {
     }
 
     public void verifyData() {
-        Assertions.assertEquals(getMonth(), getCurrentMonth());
-        Assertions.assertEquals(getYear(), getCurrentYear());
-        Assertions.assertEquals(getDay(), getCurrentDay());
-        System.out.println(getMonth());
-        System.out.println(getYear());
-        System.out.println(getDay());
+//        Assertions.assertEquals(getMonth(), getCurrentMonth());
+//        Assertions.assertEquals(getYear(), getCurrentYear());
+//        Assertions.assertEquals(getDay(), getCurrentDay());
+//        System.out.println(getMonth());
+//        System.out.println(getYear());
+//        System.out.println(getDay());
     }
 
 }

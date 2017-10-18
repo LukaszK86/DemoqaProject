@@ -15,8 +15,16 @@ public class SliderPage {
     WebElement valueOfSlider;
 
     public void moveSlider(int quantity) {
-        for (int i = 1; i <= quantity; i++) {
-            slider.sendKeys(Keys.ARROW_RIGHT);
+        switch (quantity) {
+                case 1:
+                    slider.sendKeys(Keys.ARROW_LEFT);
+                    break;
+                case 2:
+                   break;
+                default:
+                    for (int i = 3; i <= quantity; i++) {
+                        slider.sendKeys(Keys.ARROW_RIGHT);
+            }
         }
     }
 

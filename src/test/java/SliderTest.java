@@ -9,6 +9,6 @@ public class SliderTest extends BaseTest {
     public void moveSliderTest() {
         driver.get("http://demoqa.com/slider/");
         SliderPage sliderPage = PageFactory.initElements(driver, SliderPage.class);
-        sliderPage.moveSlider(1);
+        sliderPage.moveSlider(2);
     }
 }
