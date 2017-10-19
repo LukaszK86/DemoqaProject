@@ -1,7 +1,12 @@
+import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+import java.net.MalformedURLException;
+import java.net.URL;
 
 public class BaseTest {
 
@@ -9,14 +14,18 @@ public class BaseTest {
 
 
     @BeforeAll
-    public static void setUp() {
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--start-maximized");
-        driver = new ChromeDriver(options);
+
+
+    public static void setUp() throws MalformedURLException {
+        DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+        capabilities.setPlatform(Platform.WINDOWS);
+        driver = new RemoteWebDriver(new URL("http://192.168.8.101:5556/wd/hub"), capabilities);
     }
 
-//    @AfterAll
-//    public static void tearDown() {
-//        driver.quit();
-//    }
+
+    @AfterAll
+    public static void tearDown() {
+        driver.quit();
+
+    }
 }

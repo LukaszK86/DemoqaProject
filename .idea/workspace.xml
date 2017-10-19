@@ -22,68 +22,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DriverManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Grid/DriverManager.java">
+      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="22" column="57" lean-forward="true" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GridParalellTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Grid/GridParalellTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="374">
+              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatePickerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DatePickerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DatePickerTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatePickerTestGrid.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Grid/DatePickerTestGrid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParallelTest1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Grid/ParallelTest1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParallelTest2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Grid/ParallelTest2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -387,7 +341,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Pages/FramesAndWindowsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/CalendarHandling.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/CalendarHandling.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/DataPickerPage.java" />
@@ -413,7 +366,6 @@
         <option value="$PROJECT_DIR$/src/test/java/JUnit4/BaseTest2.java" />
         <option value="$PROJECT_DIR$/src/test/java/WebDriverExtension.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/Menus/SliderData.java" />
         <option value="$PROJECT_DIR$/src/main/java/DatePickerData.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/Menus/DatePickerAssertions.java" />
@@ -436,12 +388,14 @@
         <option value="$PROJECT_DIR$/src/test/java/Grid/ParallelTest2.java" />
         <option value="$PROJECT_DIR$/src/test/java/Grid/GridParalellTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Grid/DriverManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Grid/DatePickerTestGrid.java" />
         <option value="$PROJECT_DIR$/src/test/java/DatePickerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Grid/DatePickerTestGrid.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DatePickerTestGrid.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -529,7 +483,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DatePickerTest.selectData">
+  <component name="RunManager" selected="JUnit.DroppableTest">
+    <configuration name="DatePickerTestGrid.selectData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="DataPickerSelenium_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DatePickerTestGrid" />
+      <option name="METHOD_NAME" value="selectData" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="DatePickerTest.selectData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="DataPickerSelenium_test" />
@@ -550,39 +524,15 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="DriverManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Grid.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Grid.DriverManager" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DataPickerSelenium_test" />
-      <envs />
-    </configuration>
-    <configuration name="ParallelTest1.simpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Grid.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="DroppableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="DataPickerSelenium_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Grid" />
-      <option name="MAIN_CLASS_NAME" value="Grid.ParallelTest1" />
-      <option name="METHOD_NAME" value="simpleTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DroppableTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -594,19 +544,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ParallelTest1.testChrome1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Grid.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="DroppableTest.dragAndDrop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="DataPickerSelenium_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Grid" />
-      <option name="MAIN_CLASS_NAME" value="Grid.ParallelTest1" />
-      <option name="METHOD_NAME" value="testChrome1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DroppableTest" />
+      <option name="METHOD_NAME" value="dragAndDrop" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -726,19 +671,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.DriverManager" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ParallelTest1.simpleTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ParallelTest1.testChrome1" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ParallelTest2.testChrome2" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DatePickerTest.selectData" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ParallelTest2.testChrome2" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DatePickerTest.selectData" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DroppableTest.dragAndDrop" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DatePickerTestGrid.selectData" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DroppableTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DatePickerTest.selectData" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ParallelTest2.testChrome2" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ParallelTest1.testChrome1" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ParallelTest1.simpleTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DriverManager" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DroppableTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DatePickerTest.selectData" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DatePickerTestGrid.selectData" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DroppableTest.dragAndDrop" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ParallelTest2.testChrome2" />
       </list>
     </recent_temporary>
   </component>
@@ -756,6 +701,12 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="DatePickerTestGrid_selectData - 2017.10.19 at 15h 05m 19s.xml">
+      <configuration name="DatePickerTestGrid.selectData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DatePickerTestGrid_selectData - 2017.10.19 at 15h 19m 40s.xml">
+      <configuration name="DatePickerTestGrid.selectData" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="DatePickerTest_selectData - 2017.10.19 at 12h 44m 56s.xml">
       <configuration name="DatePickerTest.selectData" configurationId="JUnit" />
     </history-entry>
@@ -768,27 +719,22 @@
     <history-entry file="DatePickerTest_selectData - 2017.10.19 at 13h 00m 22s.xml">
       <configuration name="DatePickerTest.selectData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DroppableTest_dragAndDrop - 2017.10.18 at 17h 09m 15s.xml">
+    <history-entry file="DatePickerTest_selectData - 2017.10.19 at 15h 08m 52s.xml">
+      <configuration name="DatePickerTest.selectData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DatePickerTest_selectData - 2017.10.19 at 15h 20m 36s.xml">
+      <configuration name="DatePickerTest.selectData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DroppableTest - 2017.10.19 at 15h 21m 12s.xml">
+      <configuration name="DroppableTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DroppableTest_dragAndDrop - 2017.10.19 at 14h 46m 15s.xml">
       <configuration name="DroppableTest.dragAndDrop" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParallelTest1_simpleTest - 2017.10.19 at 11h 09m 08s.xml">
-      <configuration name="ParallelTest1.simpleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParallelTest1_simpleTest - 2017.10.19 at 11h 11m 14s.xml">
-      <configuration name="ParallelTest1.simpleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParallelTest1_testChrome1 - 2017.10.19 at 12h 00m 56s.xml">
-      <configuration name="ParallelTest1.testChrome1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParallelTest1_testChrome1 - 2017.10.19 at 12h 39m 33s.xml">
-      <configuration name="ParallelTest1.testChrome1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParallelTest2_testChrome2 - 2017.10.19 at 12h 42m 31s.xml">
-      <configuration name="ParallelTest2.testChrome2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -800,7 +746,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32896462" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -970,24 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DroppableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/DroppablePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1025,26 +953,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Grid/ParallelTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Grid/ParallelTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Grid/GridParalellTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1055,18 +963,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Grid/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="22" column="57" lean-forward="true" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="171">
+          <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Grid/DatePickerTestGrid.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DroppableTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Grid/ParallelTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Grid/ParallelTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DatePickerTestGrid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1074,7 +1004,15 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/DatePickerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
           <folding />
         </state>
       </provider>

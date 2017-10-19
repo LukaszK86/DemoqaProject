@@ -1,4 +1,3 @@
-import Grid.DriverManager;
 import Pages.DatePicker.DatePickerAssertions;
 import Pages.DatePicker.DatePickerData;
 import Pages.DatePicker.DatePickerPage;
@@ -8,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 public class DatePickerTest extends BaseTest {
 
     @Test
-    public void selectData()  {
+    public void selectData() {
 
         driver.get("http://demoqa.com/datepicker/");
         DatePickerPage datePickerPage = PageFactory.initElements(driver, DatePickerPage.class);

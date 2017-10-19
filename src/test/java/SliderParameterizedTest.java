@@ -18,20 +18,19 @@ public class SliderParameterizedTest extends BaseTest {
 
 //    public static Collection testData() {                             //Object[][] data = new Object[][] { {"1"}, {"JU"}, {"JUnit Parallel"}};
 //        return Arrays.asList(new Object[][]{{6, 8}, {3, 5}, {5, 7}});       //return Arrays.asList(data);
- //  }
-
+    //  }
 
 
     @ParameterizedTest
-    @ValueSource(ints ={4,5,6})
+    @ValueSource(ints = {4, 5, 6})
     public void testMoveSlider(int moveQuantity) throws InterruptedException {
         driver.get("http://demoqa.com/slider/");
         System.out.println(driver.getPageSource());
         SliderPage sliderPageParameterized = PageFactory.initElements(driver, SliderPage.class);
         sliderPageParameterized.moveSlider(moveQuantity);
-       sliderPageParameterized.getSliderValue();
+        sliderPageParameterized.getSliderValue();
 
-       // Assertions.assertEquals(sliderPageParameterized.getSliderValue(), Integer.toString(moveQuantity));
+        // Assertions.assertEquals(sliderPageParameterized.getSliderValue(), Integer.toString(moveQuantity));
 
     }
 

@@ -11,7 +11,7 @@ public class DroppableTest extends BaseTest {
         driver.get("http://demoqa.com/droppable/");
         DroppablePage droppablePage = PageFactory.initElements(driver, DroppablePage.class);
         droppablePage.setBuilder(driver);
-        Assertions.assertEquals("Dropped!",droppablePage.getWordDropped());
+        Assertions.assertEquals("Dropped!", droppablePage.getWordDropped());
 
 
     }
