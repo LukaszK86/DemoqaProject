@@ -1,15 +1,18 @@
-import Grid.DriverManager;
+package Grid;
+
 import Pages.DatePicker.DatePickerAssertions;
 import Pages.DatePicker.DatePickerData;
 import Pages.DatePicker.DatePickerPage;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.support.PageFactory;
 
-public class DatePickerTest extends BaseTest {
+import java.net.MalformedURLException;
+
+public class DatePickerTestGrid extends DriverManager {
 
     @Test
-    public void selectData()  {
-
+    public void selectData() throws MalformedURLException {
+        driver = new DriverManager().getDriver("chrome");
         driver.get("http://demoqa.com/datepicker/");
         DatePickerPage datePickerPage = PageFactory.initElements(driver, DatePickerPage.class);
         datePickerPage.clickFieldData();
