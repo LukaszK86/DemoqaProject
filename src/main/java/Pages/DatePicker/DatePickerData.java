@@ -1,10 +1,11 @@
 package Pages.DatePicker;
 
+
 public class DatePickerData {
 
-    String month;
-    int day;
-    int year;
+    private String month;
+    private int day;
+    private int year;
 
 
     public DatePickerData() {

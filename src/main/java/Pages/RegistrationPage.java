@@ -76,14 +76,14 @@ public class RegistrationPage {
         chooseMonth();
         chooseDay();
         chooseYear();
-        typePhoneNumber("0700700700");
-        typeUsername("Janek99999");
-        typeMail("janek99999@ahoj.pl");
+        typePhoneNumber("07007007000");
+        typeUsername("Janek999999");
+        typeMail("janek999999@ahoj.pl");
         typeDescription("Wesoly, usmiechniety, uczy sie Javy");
-        typePassword("Janek999999");
-        typeConfirmPassword("Janek999999");
+        typePassword("Janek9999999");
+        typeConfirmPassword("Janek9999999");
         clickSubmitnButton();
-        displayRegistrationMessage();
+        displayErrorMessage();
     }
 
     public void typeFirstName(String name) {
@@ -159,10 +159,6 @@ public class RegistrationPage {
 
     public void selectDance() {
         dance.click();
-    }
-
-    public void displayRegistrationMessage() {
-        System.out.println("Message from demoqa.com: " + RegistrationMessage.getText());
     }
 
     public void displayErrorMessage() {

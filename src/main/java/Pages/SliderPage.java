@@ -8,11 +8,12 @@ import org.openqa.selenium.support.How;
 
 public class SliderPage {
 
-    @FindBy(how = How.XPATH, using = "//*[@id=\"slider-range-max\"]/span")
+    @FindBy(how = How.XPATH, using = "//*[@id='slider-range-max']/span")
     WebElement slider;
 
-    @FindBy(how = How.CSS, using = "input#amount1")
+    @FindBy(how = How.ID, using = "amount1")
     WebElement valueOfSlider;
+
 
     public void moveSlider(int quantity) {
         switch (quantity) {
@@ -28,13 +29,9 @@ public class SliderPage {
         }
     }
 
-    public void getSliderValue() throws InterruptedException {
-        Thread.sleep(1000);
-        System.out.println(valueOfSlider.getAttribute("style"));
-        System.out.println(valueOfSlider.getAttribute("type"));
-        System.out.println(valueOfSlider);
 
-        System.out.println((valueOfSlider.getText()));
+    public void getSliderValue() throws InterruptedException {
+        System.out.println(valueOfSlider);
     }
 
 

@@ -25,7 +25,7 @@ public class DroppablePage {
     }
 
     public String getWordDropped() {
-       return wordDropped.getText();
+        return wordDropped.getText();
     }
 
 

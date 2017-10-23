@@ -15,9 +15,9 @@ public class RegistrationTest extends BaseTest {
         RegistrationPage registrationPage = PageFactory.initElements(driver, RegistrationPage.class);
         registrationPage.findAllMethodsFromRegistrationPage();
         registrationPage.clickSubmitnButton();
-        registrationPage.typeUsername("Andrzej727");
+        registrationPage.typeUsername("Andrzej7272");
         registrationPage.clickSubmitnButton();
-        registrationPage.typeMail("andrzej727@.ahoj.pl");
+        registrationPage.typeMail("andrzej7272@.ahoj.pl");
 
 
     }
