@@ -14,8 +14,6 @@ public class SliderParameterizedTest extends BaseTest {
 
         SliderPage sliderPageParameterized = PageFactory.initElements(driver, SliderPage.class);
         sliderPageParameterized.moveSlider(moveQuantity);
-        sliderPageParameterized.getSliderValue();
-
 
     }
 
