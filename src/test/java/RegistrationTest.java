@@ -18,7 +18,5 @@ public class RegistrationTest extends BaseTest {
         registrationPage.typeUsername("Andrzej7272");
         registrationPage.clickSubmitnButton();
         registrationPage.typeMail("andrzej7272@.ahoj.pl");
-
-
     }
 }

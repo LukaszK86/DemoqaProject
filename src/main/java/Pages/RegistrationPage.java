@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.Select;
 
-public class RegistrationPage {
+public class RegistrationPage extends RegistrationRandomGenerator {
 
     WebDriver driver;
     @FindBy(how = How.ID, using = "name_3_firstname")
@@ -53,7 +53,7 @@ public class RegistrationPage {
     WebElement dance;
 
     @FindBy(how = How.CLASS_NAME, using = "piereg_message")
-    WebElement RegistrationMessage;
+    WebElement registrationMessage;
 
     @FindBy(how = How.CLASS_NAME, using = "piereg_login_error")
     WebElement errorMessage;
@@ -70,20 +70,19 @@ public class RegistrationPage {
     public void findAllMethodsFromRegistrationPage() {
         typeFirstName("Jan");
         typeLastName("Kowalski");
-        //registrationPage.selectMaritalStatus();
         selectDance();
         chooseCountry();
         chooseMonth();
         chooseDay();
         chooseYear();
         typePhoneNumber("07007007000");
-        typeUsername("Janek999999");
-        typeMail("janek999999@ahoj.pl");
+        typeUsername("Janek99" + RegistrationRandomGenerator.generateRandom(5));
+        typeMail(RegistrationRandomGenerator.generateRandom(5)+"@ahoj.pl");
         typeDescription("Wesoly, usmiechniety, uczy sie Javy");
         typePassword("Janek9999999");
         typeConfirmPassword("Janek9999999");
         clickSubmitnButton();
-        displayErrorMessage();
+        printRegistrationMessage();
     }
 
     public void typeFirstName(String name) {
@@ -132,8 +131,6 @@ public class RegistrationPage {
     }
 
     public void typePassword(String passwordName) {
-        // password.click();
-
         password.sendKeys(passwordName);
     }
 
@@ -161,8 +158,14 @@ public class RegistrationPage {
         dance.click();
     }
 
+
+
     public void displayErrorMessage() {
 
-        System.out.println("Message from demoqa.com: " + errorMessage.getText() + " Please change the username.");
+        System.out.println(errorMessage.getText());
+    }
+
+    public void printRegistrationMessage() {
+        System.out.println(registrationMessage.getText());
     }
 }
