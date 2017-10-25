@@ -1,13 +1,11 @@
 package Pages;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.Select;
-
-public class RegistrationPage {
+public class RegistrationPage extends RegistrationRandomGenerator {
 
     WebDriver driver;
     @FindBy(how = How.ID, using = "name_3_firstname")
@@ -53,7 +51,7 @@ public class RegistrationPage {
     WebElement dance;
 
     @FindBy(how = How.CLASS_NAME, using = "piereg_message")
-    WebElement RegistrationMessage;
+    WebElement registrationMessage;
 
     @FindBy(how = How.CLASS_NAME, using = "piereg_login_error")
     WebElement errorMessage;
@@ -77,13 +75,13 @@ public class RegistrationPage {
         chooseDay();
         chooseYear();
         typePhoneNumber("07007007000");
-        typeUsername("Janek999999");
-        typeMail("janek999999@ahoj.pl");
+        typeUsername("Janek99" + RegistrationRandomGenerator.generateRandom(5));
+        typeMail(RegistrationRandomGenerator.generateRandom(5)+"@ahoj.pl");
         typeDescription("Wesoly, usmiechniety, uczy sie Javy");
         typePassword("Janek9999999");
         typeConfirmPassword("Janek9999999");
         clickSubmitnButton();
-        displayErrorMessage();
+        displayRegistrationMessage();
     }
 
     public void typeFirstName(String name) {
@@ -115,11 +113,14 @@ public class RegistrationPage {
         valueMonth.selectByValue("1980");
     }
 
+    private String userName;
+
     public void typePhoneNumber(String number) {
         phoneNumber.sendKeys(number);
     }
 
     public void typeUsername(String userName) {
+        this.userName=userName;
         username.sendKeys(userName);
     }
 
@@ -164,5 +165,9 @@ public class RegistrationPage {
     public void displayErrorMessage() {
 
         System.out.println("Message from demoqa.com: " + errorMessage.getText() + " Please change the username.");
+    }
+
+    public void displayRegistrationMessage() {
+        System.out.println("Hello " + userName.toString() +" "  + registrationMessage.getText());
     }
 }
