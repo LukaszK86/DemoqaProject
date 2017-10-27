@@ -2,6 +2,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.SourceType;
 import org.openqa.selenium.logging.LogEntries;
 import org.openqa.selenium.logging.LogEntry;
 import org.openqa.selenium.logging.LogType;
@@ -37,11 +38,12 @@ public class BaseTest {
     public void beforeTest() throws MalformedURLException {
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         capabilities.setPlatform(Platform.WINDOWS);
-        driver = new RemoteWebDriver(new URL("http://192.168.1.101:5556/wd/hub"), capabilities);
+        driver = new RemoteWebDriver(new URL("http://192.168.8.101:5556/wd/hub"), capabilities);
     }
 
     @AfterTest
     public void afterTest() throws Exception {
+        System.out.println("Closing driver at URL " + driver.getCurrentUrl());
         takesScreenshot(driver, "C:\\Users\\Kuki\\Documents\\Programowanie\\Test\\Test.bmp");
         analyzeLog();
         driver.quit();
