@@ -1,7 +1,8 @@
 import Pages.Menus.SideMenu;
 import Pages.RegistrationPage;
-import org.junit.jupiter.api.Test;
+
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
 
 public class RegistrationTest extends BaseTest {
 

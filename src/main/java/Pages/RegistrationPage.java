@@ -1,11 +1,11 @@
 package Pages;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.Select;
+
 
 public class RegistrationPage extends RegistrationRandomGenerator {
 
@@ -82,7 +82,7 @@ public class RegistrationPage extends RegistrationRandomGenerator {
         typePassword("Janek9999999");
         typeConfirmPassword("Janek9999999");
         clickSubmitnButton();
-        printRegistrationMessage();
+        displayRegistrationMessage();
     }
 
     public void typeFirstName(String name) {
@@ -114,11 +114,14 @@ public class RegistrationPage extends RegistrationRandomGenerator {
         valueMonth.selectByValue("1980");
     }
 
+    private String userName;
+
     public void typePhoneNumber(String number) {
         phoneNumber.sendKeys(number);
     }
 
     public void typeUsername(String userName) {
+        this.userName=userName;
         username.sendKeys(userName);
     }
 
@@ -165,7 +168,7 @@ public class RegistrationPage extends RegistrationRandomGenerator {
         System.out.println(errorMessage.getText());
     }
 
-    public void printRegistrationMessage() {
-        System.out.println(registrationMessage.getText());
+    public void displayRegistrationMessage() {
+        System.out.println("Hello " + userName.toString() +" "  + registrationMessage.getText());
     }
 }

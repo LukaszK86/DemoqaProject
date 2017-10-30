@@ -15,20 +15,19 @@ public class SliderPage {
     WebElement valueOfSlider;
 
 
-
-        public void moveSlider(int quantity) {
-            this.quantity = quantity;
-            int liczba = Integer.parseInt(valueOfSlider.getAttribute("value"));
-            if (liczba!=quantity){
-                if (liczba < quantity) {
-                    for (int i = 0; i < quantity-liczba; i++)
-                        slider.sendKeys(Keys.ARROW_RIGHT);
-                } else {
-                    for (int i = 0; i <= (liczba - quantity); i++)
-                        slider.sendKeys(Keys.ARROW_LEFT);
-                }
+    public void moveSlider(int quantity) {
+        this.quantity = quantity;
+        int liczba = Integer.parseInt(valueOfSlider.getAttribute("value"));
+        if (liczba!=quantity){
+            if (liczba < quantity) {
+                for (int i = 0; i < quantity-liczba; i++)
+                    slider.sendKeys(Keys.ARROW_RIGHT);
+            } else {
+                for (int i = 0; i <= (liczba - quantity); i++)
+                    slider.sendKeys(Keys.ARROW_LEFT);
             }
         }
+    }
 
     public int getQuantity() {
         return quantity;
